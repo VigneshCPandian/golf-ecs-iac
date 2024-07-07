@@ -2,10 +2,10 @@ terraform {
   required_version = "~> 1.3"
 
   backend "s3" {
-    bucket = "A-Golf-S3"
+    bucket = "agolfs3"
     key = "test-ecs-iac/terraform.tfstate"
     region = "us-east-1"
-    dynamodb_table = "A-Golf-Table"
+    dynamodb_table = "agolftable"
     encrypt = true
   }
 

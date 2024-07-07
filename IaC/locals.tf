@@ -1,6 +1,6 @@
 locals {
-    bucket_name = "a-golf-s3"
-    table_name = "a-golf-table"
+    bucket_name = "agolfs3"
+    table_name = "agolftable"
 
     ecr_repo_name = "a-golf-ecr"
 
