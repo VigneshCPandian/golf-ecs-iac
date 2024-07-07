@@ -5,12 +5,12 @@ on:
       branches: 
         - main
       paths: 
-        - /**
+        - IaC/**
     pull_request:
       branches: 
         - main
       paths: 
-        - /**
+        - IaC/**
 env:
     # credentials for deployment to AWS
     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
