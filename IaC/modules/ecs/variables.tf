@@ -5,7 +5,7 @@ variable "a_golf_cluster"{
 
 variable "availability_zones"{
     description = "us-east-1 AZs"
-    type = string
+    type = list(string)
 }
 
 variable "a_golf_task_family"{
