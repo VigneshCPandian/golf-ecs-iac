@@ -46,4 +46,3 @@ module "ecsCluster" {
   a_golf_service  = local.a_golf_service
 }
 
-#
